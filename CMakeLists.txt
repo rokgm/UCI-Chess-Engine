@@ -30,7 +30,8 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
     core
-    logger 
+    logger
+    uci
 )
 
 target_compile_definitions(${PROJECT_NAME}
