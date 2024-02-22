@@ -56,6 +56,7 @@ target_precompile_headers(${PROJECT_NAME}
 
 # Copy book moves to binary folder
 file(COPY book DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+file(COPY book DESTINATION "${CMAKE_BINARY_DIR}")
 
 enable_testing()
 include(CTest)
